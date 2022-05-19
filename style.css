@@ -1,25 +1,25 @@
 .row{
     display: flex;
-    height: 100px;
 }
 .col {
     flex: 1;
     background-color: darkcyan;
+    /* Add padding to the columns to have the text centered in the columns and make the columns have a greater height. */
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     color: white;
 }
 .col-2 {
     flex: 2;
     background-color: darkcyan;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     color: white;
 }
 .col-3 {
     flex: 3;
     background-color: darkcyan;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     color: white;
 }
